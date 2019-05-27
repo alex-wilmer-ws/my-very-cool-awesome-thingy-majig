@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Eventually something good like a react component.",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/alex-wilmer-ws/my-very-cool-awesome-thingy-majig.git"
+  }, 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

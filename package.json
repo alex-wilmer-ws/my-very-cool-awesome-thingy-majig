@@ -2,13 +2,13 @@
   "name": "my-very-cool-awesome-thingy-majig",
   "version": "0.2.0",
   "description": "Eventually something good like a react component.",
-  "main": "index.js",
+  "main": "dist.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/alex-wilmer-ws/my-very-cool-awesome-thingy-majig.git"
   },
   "scripts": {
-    "build": "babel --presets @babel/preset-react index.js",
+    "build": "babel --presets @babel/preset-react index.js --out-file dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Wilmer",
